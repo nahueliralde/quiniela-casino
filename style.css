@@ -1,0 +1,44 @@
+/* Bloque ¿Qué ofrecemos? estilo casino sunset */
+.ofrecemos-casino {
+  background: linear-gradient(135deg, #6a0572, #ff6f61);
+  border-left: 6px solid #ffd700;
+  padding: 2em;
+  margin: 2em auto;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  font-family: 'Roboto', sans-serif;
+  color: #fffbea;
+  text-align: center;
+}
+
+.ofrecemos-casino h2 {
+  font-family: 'Orbitron', monospace;
+  font-size: 2em;
+  color: #ffd700;
+  margin-bottom: 1em;
+  text-shadow: 0 0 8px #ffd700, 0 0 12px #ffef9f;
+}
+
+.grid-ofrecemos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1em;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+.grid-ofrecemos div {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+.grid-ofrecemos div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+  background: rgba(255, 255, 255, 0.2);
+}
